@@ -28,7 +28,7 @@ figure {
   margin: 50px auto;
   overflow: hidden;
   padding: 10px;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   float: none;
   position: relative;
 }
@@ -48,8 +48,9 @@ padding-left: 30%;
 .film-poster {
   float: left;
   position: absolute;
-  display: inline-block;
-  /* width: 40%; */
+  padding-bottom: 5px;
+  /* display: inline-block; */
+  width: 110%;
 }
 
 .action-like {
@@ -62,6 +63,6 @@ color: red;
   position: absolute;
   float: left;
   top: 10px;
-  left: 120px;
+  left: 140px;
   color: red;
 }
